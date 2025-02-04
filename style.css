@@ -15,6 +15,26 @@ body{
     margin: 0 auto;
 }
 
+.flex{
+    display: flex;
+}
+
+.btnContatos button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #ff7d00;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.btnContatos button:hover{
+    box-shadow: 0px 0px 8px #af6118;
+    transform: scale(1.05);
+}
+
 /* Estilo cabeçalho */
 header{
     padding: 40px 4%;
@@ -52,16 +72,36 @@ header nav ul li{
     padding: 0 40px;
 }
 
-.btnContatos{
-    padding: 10px 40px;
-    font-size: 18px;
-    font-weight: 400;
-    background-color: #ff7d00;
-    border: 0;
-    border-radius: 10px;
-    cursor: pointer;
+/* Estilo do topo do site */
+section.topoDoSite{
+    padding: 40px 4%;
 }
 
-header .btnContatos button:hover{
-    box-shadow: 0px 0px 8px #af6118;
+section.topoDoSite .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topoDoSite h1{
+    color: white;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.topoDoSite .txtTopoSite h1 span{
+    color: #ff7d00;
+}
+
+.topoDoSite .txtTopoSite p{
+    color: white;
+    margin: 40px 0px;
+    text-align: justify;
+}
+
+
+.topoDoSite .imgTopoSite img{
+    padding-left: 90px;
+    height: 380px;
+    width: auto;
 }
