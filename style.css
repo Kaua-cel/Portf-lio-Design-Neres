@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: black;
+    background-color: #001524;
     height: 100vh;
 }
 
@@ -53,7 +53,7 @@ header > .interface{
 
 header a{
     display: inline-block;
-    color: rgb(110, 110, 110);
+    color: rgb(202, 202, 202);
     text-decoration: none;
 }
 
