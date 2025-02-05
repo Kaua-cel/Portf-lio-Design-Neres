@@ -205,4 +205,50 @@ section.Sobre .flex{
     transition: .2s;
 }
 
-/*  */
+/* Estilo dos projetos */
+section.Portfolio{
+    padding: 80px 4%;
+    box-shadow: 0 0 50px 5px rgba(255, 255, 255, 0.055);
+}
+
+section.Portfolio .flex{
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.imgPort{
+    width: 360px;
+    height: 460px;
+    background-size: cover;
+    background-position: 100% 0%;
+    border-radius: 40px;
+    transition: 7s;
+    cursor: pointer;
+    position: relative;
+}
+
+.imgPort:hover{
+    background-position: 100% 100%;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00152441;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    opacity: 0;
+    transition: .5s;
+}
+
+.overlay:hover{
+    opacity: 1;
+}
