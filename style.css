@@ -20,7 +20,7 @@ body{
 }
 
 .btnContatos button{
-    padding: 10px 40px;
+    padding: 12px 40px;
     font-size: 18px;
     font-weight: 400;
     background-color: #ff7d00;
@@ -33,6 +33,16 @@ body{
 .btnContatos button:hover{
     box-shadow: 0px 0px 8px #af6118;
     transform: scale(1.05);
+}
+
+h2.Titulo{
+    color: white;
+    font-size: 32px;
+    text-align: center;
+}
+
+h2.Titulo span{
+    color: #ff7d00;
 }
 
 /* Estilo cabeçalho */
@@ -48,7 +58,7 @@ header > .interface{
 
 .logo img{
     height: auto;
-    width: 65px;
+    width: 90px;
 }
 
 header a{
@@ -104,4 +114,44 @@ section.topoDoSite .flex{
     padding-left: 90px;
     height: 380px;
     width: auto;
+}
+
+/* Esctilo Especialidades */
+section.Especialidades{
+    padding: 40px 4%;
+
+}
+section.Especialidades{
+    gap: 60px;
+}
+
+.Especialidades .flex{
+    justify-content: space-between;
+}
+
+.Especialidades .espBox{
+    color: white;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 45px;
+    transition: .2s;
+}
+
+.Especialidades .espBox:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.308);
+}
+
+.Especialidades .espBox img{
+    height: 140px;
+    width: auto;
+}
+
+.Especialidades .espBox h3{
+    font-size: 28px;
+    margin: 15px 0;
+}
+
+.Especialidades .espBox p{
+    text-align: justify;
 }
