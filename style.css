@@ -30,7 +30,7 @@ body{
     transition: .2s;
 }
 
-.btnContatos button:hover{
+button:hover{
     box-shadow: 0px 0px 8px #af6118;
     transform: scale(1.05);
 }
@@ -154,4 +154,53 @@ section.Especialidades{
 
 .Especialidades .espBox p{
     text-align: justify;
+}
+
+/* Estilo de Sobre */
+section.Sobre{
+    padding: 40px 4%;
+}
+
+.Sobre .imgSobre img{
+    height: 480px;
+    width: auto;
+    border: solid 0px #ff7d00;
+    border-radius: 20px;
+}
+
+section.Sobre .flex{
+    align-items: center;
+    gap: 60px;
+}
+
+.Sobre .txtSobre{
+    color: white;
+}
+
+.Sobre .txtSobre h2{
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+.Sobre .txtSobre h2 span{
+    color: #ff7d00;
+    display: block;
+}
+
+.Sobre .txtSobre p{
+    margin: 20px 0;
+    text-align: justify;
+}
+
+.Sobre .txtSobre .btnSocial button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    border: none;
+    background-color: #ff7d00;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 0 6px;
+    transition: .2s;
 }
