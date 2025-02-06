@@ -330,6 +330,11 @@ footer .lineFooter p a{
     color: white;
 }
 
-/* @media screen and (max-width: 1020px){
+@media screen and (max-width: 1020px){
+    /* Cabeçalho */
+    .menuDesktop, .btnContatos{
+        display: none;
+    }
 
-} */
+    /* Topo do site */
+}
