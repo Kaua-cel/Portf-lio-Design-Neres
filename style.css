@@ -68,7 +68,7 @@ header a {
     text-decoration: none;
 }
 
-header a:hover {
+header nav.menuDesktop a:hover {
     color: white;
     transform: scale(1.05);
     transition: .2s;
@@ -78,7 +78,7 @@ header nav ul {
     list-style: none;
 }
 
-header nav ul li {
+header nav.menuDesktop ul li {
     display: inline-block;
     padding: 0 40px;
 }
@@ -93,6 +93,59 @@ header nav ul li {
     cursor: pointer;
     margin: 0 6px;
     transition: .2s;
+}
+
+/* Estilo menu mobile */
+.menuMobile {
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 99999;
+    width: 0%;
+    overflow: hidden;
+}
+
+.menuMobile .navItens .itens {
+    text-align: right;
+}
+
+.menuMobile nav ul li a {
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 20px 8%;
+    display: block;
+}
+
+.menuMobile nav ul li a:hover {
+    background-color: #ff7d00;
+    color: #001524;
+}
+
+.menuMobile .btnFechar {
+    padding: 20px 5%;
+}
+
+.menuMobile .btnFechar {
+    color: #ff7d00;
+    font-size: 32px;
+}
+
+.btnMenu {
+    color: #ff7d00;
+    font-size: 40px;
+}
+
+.overlayMenu {
+    background-color: rgba(0, 0, 0, 0.548);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
 }
 
 /* Estilo do topo do site */
@@ -128,7 +181,7 @@ section.topoDoSite .flex {
     width: auto;
 }
 
-/* Esctilo Especialidades */
+/* Estilo Especialidades */
 section.Especialidades {
     padding: 40px 4%;
 
@@ -346,7 +399,6 @@ footer .lineFooter p a {
     }
 
     /* Cabeçalho */
-    .menuDesktop,
     .btnContatos {
         display: none;
     }
@@ -385,11 +437,11 @@ footer .lineFooter p a {
         text-align: center;
     }
 
-    .btnSocial{
+    .btnSocial {
         text-align: center;
     }
 
-    .imgSobre img{
+    .imgSobre img {
         width: 100%;
     }
 
@@ -415,6 +467,6 @@ footer .lineFooter p a {
     }
 
     footer .lineFooter {
-       text-align: center;
+        text-align: center;
     }
 }
