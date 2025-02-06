@@ -108,6 +108,9 @@ header nav.menuDesktop ul li {
     overflow: hidden;
     transition: .3s;
 }
+.btnMenu, .btnFechar{
+    cursor: pointer;
+}
 
 .menuMobile.openMenu{
     width: 70%;
