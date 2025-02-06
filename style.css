@@ -82,6 +82,18 @@ header nav ul li{
     padding: 0 40px;
 }
 
+.btnSocial button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    border: none;
+    background-color: #ff7d00;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 0 6px;
+    transition: .2s;
+}
+
 /* Estilo do topo do site */
 section.topoDoSite{
     padding: 40px 4%;
@@ -193,17 +205,6 @@ section.Sobre .flex{
     text-align: justify;
 }
 
-.Sobre .txtSobre .btnSocial button{
-    width: 60px;
-    height: 60px;
-    border-radius: 50px;
-    border: none;
-    background-color: #ff7d00;
-    font-size: 25px;
-    cursor: pointer;
-    margin: 0 6px;
-    transition: .2s;
-}
 
 /* Estilo dos projetos */
 section.Portfolio{
@@ -301,3 +302,34 @@ form .btnEnviar input{
     cursor: pointer;
     transition: .2s;
 }
+
+/* Estilo Rodapé */
+footer{
+    padding: 60px 4%;
+    box-shadow: 0 0 50px 5px rgba(255, 255, 255, 0.055);
+}
+
+footer .flex{
+    justify-content: space-between;
+}
+
+footer .lineFooter{
+    padding: 20px 0;
+}
+
+.boderLine{
+    border-top: 2px solid #ff7d00;
+}
+
+footer .lineFooter p i{
+    color: #ff7d00;
+    font-size: 22px;
+}
+
+footer .lineFooter p a{
+    color: white;
+}
+
+/* @media screen and (max-width: 1020px){
+
+} */
