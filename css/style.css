@@ -30,8 +30,7 @@ body {
     transition: .2s;
 }
 
-button:hover,
-form .btnEnviar input:hover {
+button:hover, form .btnEnviar input:hover {
     box-shadow: 0px 0px 8px #af6118;
     transform: scale(1.05);
 }
@@ -68,7 +67,7 @@ header a {
     text-decoration: none;
 }
 
-header nav.menuDesktop a:hover {
+header nav.menuDesktop, a:hover {
     color: white;
     transform: scale(1.05);
     transition: .2s;
@@ -96,6 +95,12 @@ header nav.menuDesktop ul li {
 }
 
 /* Estilo menu mobile */
+.btnOpenMenu {
+    color: #ff7d00;
+    font-size: 40px;
+    display: none;
+}
+
 .menuMobile {
     display: none;
     background-color: rgb(0, 0, 0);
@@ -107,9 +112,6 @@ header nav.menuDesktop ul li {
     width: 0%;
     overflow: hidden;
     transition: .3s;
-}
-.btnMenu, .btnFechar{
-    cursor: pointer;
 }
 
 .menuMobile.openMenu{
@@ -144,11 +146,6 @@ header nav.menuDesktop ul li {
 .menuMobile .btnFechar {
     color: #ff7d00;
     font-size: 32px;
-}
-
-.btnMenu {
-    color: #ff7d00;
-    font-size: 40px;
 }
 
 .overlayMenu {
@@ -422,6 +419,10 @@ footer .lineFooter p a {
 
     .menuDesktop{
         display: none;
+    }
+
+    .btnOpenMenu{
+        display: block;
     }
     /* Topo do site */
     .topoDoSite .flex {

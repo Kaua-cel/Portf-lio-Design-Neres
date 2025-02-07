@@ -11,11 +11,11 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/style.css">
 
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
-    <script src="menu.js" defer></script>
+    <script src="/menu.js" defer></script>
 </head>
 <body>
     <header>
@@ -28,20 +28,20 @@
 
             <nav class="menuDesktop">
                 <ul>
-                    <li><a href="">Início</a></li>
-                    <li><a href="">Especialidades</a></li>
-                    <li><a href="">Sobre</a></li>
-                    <li><a href="">Projetos</a></li>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#especialidades">Especialidades</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
                 </ul>
             </nav>
     
             <div class="btnContatos">
-                <a href="#">
+                <a href="#contato">
                     <button>Contato</button>
                 </a>
             </div>
 
-            <div class="btnMenu" id="btnMenu">
+            <div class="btnOpenMenu" id="btnMenu">
                 <i class="bi bi-list"></i>
             </div>
 
@@ -52,11 +52,11 @@
 
                 <nav class="navItens">
                     <ul class="itens">
-                        <li><a href="#">Início</a></li>
-                        <li><a href="#">Especialidades</a></li>
-                        <li><a href="#">Sobre</a></li>
-                        <li><a href="#">Projetos</a></li>
-                        <li><a href="#">Contatos</a></li>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#especialidades">Especialidades</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                        <li><a href="#contato">Contatos</a></li>
                     </ul>
                 </nav>
 
@@ -67,7 +67,7 @@
     </header>
 
     <main>
-        <section class="topoDoSite">
+        <section class="topoDoSite" id="inicio">
             <div class="interface">
                 <div class="flex">
                     <div class="txtTopoSite">
@@ -94,7 +94,7 @@
             </div>
         </section>
 
-        <section class="Especialidades">
+        <section class="Especialidades" id="especialidades">
             <div class="interface">
                 <h2 class="Titulo">MINHAS <span>ESPECIALIDADES.</span></h2>
                 <div class="flex">
@@ -127,7 +127,7 @@
             </div>
         </section>
 
-        <section class="Sobre">
+        <section class="Sobre" id="sobre">
             <div class="interface"></div>
                 <div class="flex">
                     <div class="imgSobre">
@@ -162,7 +162,7 @@
              </div>
         </section>
 
-        <section class="Portfolio">
+        <section class="Portfolio" id="projetos">
             <div class="interface">
                 <h2 class="Titulo">MEUS <span>PROJETOS.</span></h2>
                 <div class="flex">
@@ -179,7 +179,7 @@
             </div>
         </section>
 
-        <section class="formulario">
+        <section class="formulario" id="contato">
             <div class="interface">
                 <h2 class="Titulo">FALE <span>COMIGO.</span></h2>
                 <form action="https://formsubmit.co/neresdesignofc@gmail.com" id="form" action="" method="post">

@@ -1,6 +1,7 @@
 let btnMenu = document.getElementById("btnMenu")
 let menu = document.getElementById("menuMobile")
 let overlay = document.getElementById("overlayMenu")
+
 let form = document.getElementById("form")
 let nameInput = document.getElementById("name")
 let emailInput = document.getElementById("email")
